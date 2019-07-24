@@ -1,12 +1,19 @@
 package com.rsmartin.arquitecturamvvm.model;
 
+import androidx.room.Entity;
+
 import com.google.gson.annotations.SerializedName;
 
+/**
+ * https://api.github.com/users/jakewharton
+ */
+
+@Entity(primaryKeys = "login")
 public class User {
-    
+
     @SerializedName("login")
     public final String login;
-    @SerializedName("avagtar_url")
+    @SerializedName("avatar_url")
     public final String avatarUrl;
     @SerializedName("name")
     public final String name;
