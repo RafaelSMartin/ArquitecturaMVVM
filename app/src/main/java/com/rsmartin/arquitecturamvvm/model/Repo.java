@@ -14,6 +14,8 @@ import com.google.gson.annotations.SerializedName;
         primaryKeys = {"name", "owner_login"})
 public class Repo {
 
+    public static final int UNKNOWN_ID = -1;
+
     public final int id;
 
     @SerializedName("name")
@@ -23,13 +25,13 @@ public class Repo {
     @SerializedName("description")
     public final String description;
     @SerializedName("stargazers_count")
-    public final String stars;
+    public final int stars;
     @SerializedName("owner")
     @Embedded(prefix = "owner_")
     public final Owner owner;
 
     public Repo(int id, String name, String fullName,
-                String description, String stars, Owner owner) {
+                String description, int stars, Owner owner) {
         this.id = id;
         this.name = name;
         this.fullName = fullName;
