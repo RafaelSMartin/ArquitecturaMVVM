@@ -5,8 +5,8 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.Transformations;
 
 import com.rsmartin.arquitecturamvvm.AppExecutors;
-import com.rsmartin.arquitecturamvvm.Utils.AbsentLiveData;
-import com.rsmartin.arquitecturamvvm.Utils.RateLimiter;
+import com.rsmartin.arquitecturamvvm.utils.AbsentLiveData;
+import com.rsmartin.arquitecturamvvm.utils.RateLimiter;
 import com.rsmartin.arquitecturamvvm.api.ApiResponse;
 import com.rsmartin.arquitecturamvvm.api.WebServiceApi;
 import com.rsmartin.arquitecturamvvm.db.GitHubDb;

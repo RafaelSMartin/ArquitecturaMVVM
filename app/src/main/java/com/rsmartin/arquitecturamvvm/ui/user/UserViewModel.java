@@ -6,7 +6,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 
-import com.rsmartin.arquitecturamvvm.Utils.AbsentLiveData;
+import com.rsmartin.arquitecturamvvm.utils.AbsentLiveData;
 import com.rsmartin.arquitecturamvvm.model.Repo;
 import com.rsmartin.arquitecturamvvm.model.User;
 import com.rsmartin.arquitecturamvvm.repository.RepoRepository;

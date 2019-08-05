@@ -1,4 +1,4 @@
-package com.rsmartin.arquitecturamvvm.Utils;
+package com.rsmartin.arquitecturamvvm.utils;
 
 import android.os.SystemClock;
 import android.util.ArrayMap;
